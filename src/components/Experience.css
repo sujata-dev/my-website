@@ -1,0 +1,85 @@
+.experience-table {
+  width: 60%;
+  margin: 2rem auto;
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-top: 20rem;
+}
+
+.experience-row {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  transition: transform 0.3s ease;
+}
+
+.experience-row:hover {
+  transform: scale(1.05);
+}
+
+.experience-header {
+  display: table;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+.experience-duration,
+.experience-company {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.experience-duration {
+  width: 30%;
+  font-size: 1.2rem;
+}
+
+.experience-company {
+  width: 70%;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+.experience-company a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.experience-company a:hover {
+  color: #0099CC;
+}
+
+.experience-details {
+  margin-left: calc(30% + 1rem);
+}
+
+.experience-details p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.skill-button:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
